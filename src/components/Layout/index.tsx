@@ -1,8 +1,8 @@
-import React from "react"
-import { Outlet, Link } from "react-router-dom"
+import React from "react";
+import { Outlet, Link } from "react-router-dom";
 
-export default function Layout({ type }) {
-  console.log(type)
+export default function Layout({ type }: any) {
+  console.log(type);
   return (
     <div
       style={{
@@ -37,5 +37,5 @@ export default function Layout({ type }) {
         <Outlet />
       </main>
     </div>
-  )
+  );
 }

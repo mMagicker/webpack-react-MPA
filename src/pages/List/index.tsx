@@ -6,10 +6,10 @@ export default function List() {
       <h1>List</h1>
       <ul>
         <li>
-          <a href="/enterprise.html">enterprise</a>
+          <a href="/#/enterprise.html">enterprise</a>
         </li>
         <li>
-          <a href="/government.html">government</a>
+          <a href="/#/government.html">government</a>
         </li>
       </ul>
     </div>
